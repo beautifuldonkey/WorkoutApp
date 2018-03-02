@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">WorkoutApp</string>
+  <string name="btn_work_out">Work out</string>
+  <string name="btn_timer">Timer</string>
+</resources>
