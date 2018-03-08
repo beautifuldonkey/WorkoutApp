@@ -6,4 +6,29 @@
   android:layout_height="match_parent"
   tools:context="beautifuldonkey.workoutapp.TimerActivity">
 
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/txt_exercise_timer"
+    android:text="00:00"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/txt_rest_timer"
+    android:text="00:00"
+    app:layout_constraintTop_toBottomOf="@+id/txt_exercise_timer"
+    app:layout_constraintLeft_toLeftOf="@+id/txt_exercise_timer"/>
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/txt_round_count"
+    android:text="00"
+    app:layout_constraintTop_toBottomOf="@+id/txt_rest_timer"
+    app:layout_constraintLeft_toLeftOf="@+id/txt_rest_timer"/>
+
 </android.support.constraint.ConstraintLayout>
