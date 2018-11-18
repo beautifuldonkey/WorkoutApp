@@ -46,6 +46,7 @@ before_script:
   - android-wait-for-emulator
   - adb shell input keyevent 82 &
   - chmod +x gradlew
-  - yes | sdkmanager --licenses
+  - yes | sdkmanager "tools"
+  - yes | sdkmanager "platforms;android-$ANDROID_API_LEVEL"
 
 script: ./gradlew clean build connectedCheck
