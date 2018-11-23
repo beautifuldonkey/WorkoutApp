@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/beautifuldonkey/WorkoutApp.svg?branch=master)](https://travis-ci.org/beautifuldonkey/WorkoutApp)
 
 Pre-release documenation:
 
